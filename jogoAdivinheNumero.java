@@ -23,16 +23,19 @@ class Main {
       System.out.println("Pontuação: " + pontuacao);
       parada = false;
       
-    } else if(palpite > num) {
+    } else if((palpite > num) && (palpite < 101)) {
       System.out.println("O número sorteado é menor");
       System.out.println();
       pontuacao -=2;
       
-    } else if(palpite < num) {
+    } else if((palpite) < num &&(palpite > -1)) {
       System.out.println("O número sorteado é maior");
       System.out.println();
       pontuacao -=2;
       
+    } else if ((palpite < 0) || (palpite > 100)){
+      System.out.println("Palpite inválido");
+      System.out.println();
       
     }
   }
