@@ -1,3 +1,5 @@
+//recebe 10 números do usuario e informa a quantidade de números pares e ímpares informados
+
 import java.util.Scanner;
 
 public class ParesImpares {
