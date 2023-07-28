@@ -1,5 +1,6 @@
-import java.util.Scanner;
+//informa ímpares em ordem crescente, de 1 até o número informado pelo usuário
 
+import java.util.Scanner;
 
 public class Main {
    public static void main(String[] args) {
