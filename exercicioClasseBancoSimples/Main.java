@@ -21,43 +21,52 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        Conta ct;
+
 
         System.out.printf("Informe o número da conta: ");
         int numero = Integer.parseInt(sc.nextLine());
         System.out.printf("Informe o titular da conta: ");
         String nome = sc.nextLine();
-
-        Conta ct = new Conta();
-        ct.Conta(numero, nome, 0);
-
         System.out.printf("Deseja realizar um depósito inicial (s/n)? ");
         String resposta = sc.nextLine();
 
+
         if (resposta.equalsIgnoreCase("s")){
             System.out.printf("Digite o valor do depósito inicial: ");
-            double valorDepInicial = Double.parseDouble(sc.nextLine());
-            ct.deposita(valorDepInicial);
+            double depInicial = Double.parseDouble(sc.nextLine());
+
+            ct = new Conta(numero, nome, depInicial);
+        } else {
+
+            ct = new Conta(numero, nome);
         }
+
 
         System.out.println();
         System.out.println("Informação da conta:");
         System.out.println(ct.toString());
+
 
         System.out.println();
         System.out.printf("Digite o valor do depósito: ");
         double deposito = Double.parseDouble(sc.nextLine());
         ct.deposita(deposito);
 
+
         System.out.println("Informação da conta atualizada:");
         System.out.println(ct.toString());
+
 
         System.out.println();
         System.out.printf("Digite o valor do saque: ");
         double saque = Double.parseDouble(sc.nextLine());
         ct.saca(saque);
 
+
         System.out.println("Informação da conta atualizada:");
         System.out.println(ct.toString());
+
 
         sc.close();
 
