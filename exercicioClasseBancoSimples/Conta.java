@@ -1,7 +1,7 @@
 public class Conta {
 
     private int numeroConta;
-    public String nomeTitular;
+    private String nomeTitular;
     private Double saldo;
 
     public void Conta(int numeroConta, String nomeTitular, double saldo){
