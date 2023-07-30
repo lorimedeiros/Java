@@ -7,8 +7,11 @@ public class Main {
         Product pd = new Product();
 
         System.out.println("Enter product data:");
+        System.out.printf("Name: ")
         pd.name = sc.nextLine();
+        System.out.printf("Price: ")
         pd.price = Double.parseDouble(sc.nextLine());
+        System.out.printf("Quantity in stock: ")
         pd.quantity = Integer.parseInt(sc.nextLine());
 
         System.out.println("Product data: " + pd.name + ", $ " + pd.price + ", " + pd.quantity + " units, Total: $ " + pd.TotalValueInStock());
