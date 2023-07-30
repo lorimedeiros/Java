@@ -2,12 +2,18 @@ public class Conta {
 
     private int numeroConta;
     private String nomeTitular;
-    private Double saldo;
+    private Double saldo = 0.0;
 
-    public void Conta(int numeroConta, String nomeTitular, double saldo){
+    public Conta(int numeroConta, String nomeTitular, double depositoInicial){
         this.numeroConta = numeroConta;
         this.nomeTitular = nomeTitular;
-        this.saldo = saldo;
+        deposita(depositoInicial);
+    }
+
+    public Conta(int numeroConta, String nomeTitular){
+        this.numeroConta = numeroConta;
+        this.nomeTitular = nomeTitular;
+
     }
 
     public void deposita(double valor){
