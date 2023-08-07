@@ -1,3 +1,5 @@
+//pede ao usuario quantos numeros quer digitar, recebe e informa negativos
+
 import java.util.Scanner;
 
 public class Main {
