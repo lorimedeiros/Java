@@ -7,7 +7,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.printf("Quantos pessoas vai informar? ");
+        System.out.printf("Quantas pessoas vai informar? ");
         int n = Integer.parseInt(sc.nextLine());
 
         String[] vectNomes = new String[n];
