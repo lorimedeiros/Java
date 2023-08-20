@@ -5,6 +5,7 @@ import java.util.Date;
 public class Postagem {
 
     private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+    //o atributo está static para não ser criada uma cópia desse atributo para cada objeto, já que o atributo não muda(é estático)
     private Date dataCriacao;
     private String titulo;
     private String conteudo;
