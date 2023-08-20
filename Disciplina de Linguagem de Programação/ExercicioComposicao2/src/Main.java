@@ -1,3 +1,5 @@
+//esse é um hard code(codigo que, em resumo, apenas printa sem pedir nada) simples de postagem
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
