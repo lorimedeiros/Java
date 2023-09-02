@@ -1,3 +1,5 @@
+// finalmente o exercicio de exceções está usando exceções
+
 package application;
 import entities.Reserva;
 
