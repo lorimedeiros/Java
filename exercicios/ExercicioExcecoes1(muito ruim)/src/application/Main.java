@@ -1,3 +1,5 @@
+// de tão merda, essa solução nem exceção usa
+
 package application;
 
 import model.entities.Reserva;
