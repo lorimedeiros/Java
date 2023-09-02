@@ -1,4 +1,5 @@
 // de tão merda, essa solução nem exceção usa
+// apenas trata tudo no próprio main e com estrutura if-else
 
 package application;
 
