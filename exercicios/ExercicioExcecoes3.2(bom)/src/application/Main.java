@@ -1,3 +1,5 @@
+// nesse exemplo é usada uma exceção personalizada, presente no pacote exceptions
+
 package application;
 import entities.Reserva;
 import exceptions.ExcecaoDeDominio;
