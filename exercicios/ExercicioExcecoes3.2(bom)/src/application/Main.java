@@ -1,4 +1,5 @@
 // nesse exemplo é usada uma exceção personalizada, presente no pacote exceptions
+// possui algumas anotações acerca de runtimeexception lá na classe da exceção personalizada
 
 package application;
 import entities.Reserva;
