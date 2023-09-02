@@ -5,9 +5,9 @@ public class Main{
 
     Scanner sc = new Scanner(System.in);
 
-    String[] vect = sc.nextLine().split(" ");
-    int position = Integer.parseInt(sc.nextLine);
-    System.out.println(vect[position]);
+    String[] vect = sc.nextLine().split(" ");        // esse split determina que o divisor será a string espaço (entre os parâmentros)
+    int position = Integer.parseInt(sc.nextLine);    // captura um inteiro
+    System.out.println(vect[position]);              // printa o item na posição position do vetor
     
     sc.close()
     
