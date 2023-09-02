@@ -1,4 +1,5 @@
-//
+// menos merda, mas usa os polêmicos ifs dentro do método
+// delega tratar o erro na classe maaaaaas está usando ifs, ainda não são as exceções
 
 package application;
 
