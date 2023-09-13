@@ -22,7 +22,7 @@ public class BlocoDeNotas {
         if (suasAnotacoes.isEmpty()){
             throw new Exception("Bloco de notas vazio");
         }
-        if ((id - 1) > suasAnotacoes.size() || (id - 1) < suasAnotacoes.size()){
+        if ((id - 1) > suasAnotacoes.size() || (id - 1) < 0){
             throw new ArrayIndexOutOfBoundsException("Id inexistente");
         }
 
@@ -45,7 +45,7 @@ public class BlocoDeNotas {
         if (suasAnotacoes.isEmpty()){
             throw new Exception("Bloco de notas vazio");
         }
-        if ((id - 1) > suasAnotacoes.size() || (id - 1) < suasAnotacoes.size()){
+        if ((id - 1) > suasAnotacoes.size() || (id - 1) < 0){
             throw new ArrayIndexOutOfBoundsException("Id inexistente");
         }
         if (texto == "" || texto == null){
@@ -90,7 +90,7 @@ public class BlocoDeNotas {
         if (lixeira.isEmpty()){
             throw new Exception("Lixeira vazia");
         }
-        if ((id - 1) > lixeira.size() || (id - 1) < lixeira.size()){
+        if ((id - 1) > lixeira.size() || (id - 1) < 0){
             throw new ArrayIndexOutOfBoundsException("Id inexistente");
         }
 
