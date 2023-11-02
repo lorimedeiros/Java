@@ -28,7 +28,7 @@ public class NumerosNaoRepetidos {
     public static void main(String[] args) {
         NumerosNaoRepetidos gerador = new NumerosNaoRepetidos();
 
-        // Gere números não repetidos no intervalo de 1 a 100.
+        // Gere 10 números não repetidos no intervalo de 1 a 100.
         for (int i = 0; i < 10; i++) {
             int numero = gerador.gerarNumeroNaoRepetido(1, 100);
             System.out.println("Número gerado: " + numero);
