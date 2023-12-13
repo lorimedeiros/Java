@@ -34,9 +34,9 @@ public class Conta_Corrente {
 
         int comparacao = valor.compareTo(BigDecimal.ZERO);
 
-        if (comparacao <= 0){
+        if (comparacao <= 0){ //testa se valor <= 0
             throw new IllegalArgumentException();
-        } else if (valor.compareTo(saldo) == 1) {
+        } else if (valor.compareTo(saldo) == 1) { //testa se valor de saque > saldo
             throw new IllegalArgumentException();
         } else {
             saldo.subtract(valor);
