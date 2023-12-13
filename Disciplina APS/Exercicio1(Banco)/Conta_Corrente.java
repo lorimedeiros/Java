@@ -36,7 +36,7 @@ public class Conta_Corrente {
 
         if (comparacao <= 0){ //testa se valor <= 0
             throw new IllegalArgumentException();
-        } else if (valor.compareTo(saldo) == 1) { //testa se valor de saque > saldo
+        } else if (valor.compareTo(saldo) == 1) { //testa se valor de saque > saldo (resultado da comparação 1, se fosse o inverso, resultado -1)
             throw new IllegalArgumentException();
         } else {
             saldo.subtract(valor);
