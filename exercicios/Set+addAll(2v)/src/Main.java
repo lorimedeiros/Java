@@ -1,3 +1,5 @@
+//mistério da ópera: Set simplesmente não repete elementos, ou seja, pra contar números diferentes é só jogar tudo num canto só :O
+//(a gênia aqui não sabia disso, por isso tem 2 versões desse trem
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
