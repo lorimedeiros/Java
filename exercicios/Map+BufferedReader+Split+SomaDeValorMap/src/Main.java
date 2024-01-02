@@ -5,6 +5,18 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/*
+Alex Blue, 15
+Maria Green, 22
+Bob Brown, 21
+Alex Blue, 30
+Bob Brown, 15
+Maria Green, 27
+Maria Green, 22
+Bob Brown, 25
+Alex Blue, 31
+*/
+
 public class Main {
     public static void main(String[] args) {
 
