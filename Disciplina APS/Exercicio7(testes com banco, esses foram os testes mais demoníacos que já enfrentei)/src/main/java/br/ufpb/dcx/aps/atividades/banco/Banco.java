@@ -20,7 +20,6 @@ public class Banco {
     public Conta criarConta(Correntista c) throws BancoException {
         if (!correntistas.containsValue(c)) throw new BancoException("Correntista não cadastrado no banco:" + c.toString());
         if (c.getConta() != null) throw new BancoException("Correntista já tem conta cadastrada");
-        //quando eu tento usar essa merda o teste dá o krl de vez
 
         Conta ct = new Conta(c, gerarNumeroConta(), this);
         c.setConta(ct);
