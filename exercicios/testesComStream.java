@@ -11,7 +11,7 @@ public class Main {
         Stream<Integer> st2 = lista.stream().map(x -> x * 10);
         Stream<String> st3 = Stream.of("Maria", "Alex", "Bob");
         Stream<Integer> st4 = Stream.iterate(0, x-> x + 2); //pelo amor de deus, não imprimir assim, pois essa porra é infinita e explode meu PC
-        Stream<Long> st5 = Stream.iterate(new Long[] {0L, 1L}, p -> new Long[] {p[1], p[0] + p[1]}).map(p -> p[0]); //sim, vadia. é um fibonacci
+        Stream<Long> st5 = Stream.iterate(new Long[] {0L, 1L}, p -> new Long[] {p[1], p[0] + p[1]}).map(p -> p[0]); //sim, é um fibonacci
 
         System.out.println("st1: " + Arrays.toString(st1.toArray()));
         System.out.println("st2: " + Arrays.toString(st2.toArray()));
