@@ -19,3 +19,4 @@
 
 * //notas da Ceci:
 * Lá na classe Correntista tem um método interessante que roda a String verificando se seus caracteres são iguais. Se sim ele aumenta um contador que pode definir se o cpf é ou não válido.
+* Lá no toString da Transacao tem uma gambiarra para passar um valor para o formato de Real brasileiro.
