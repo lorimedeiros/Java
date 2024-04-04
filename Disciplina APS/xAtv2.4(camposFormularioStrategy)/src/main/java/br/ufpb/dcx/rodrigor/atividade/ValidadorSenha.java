@@ -41,4 +41,26 @@ public class ValidadorSenha implements ValidadorCampo{
 
         return new Resultado();
     }
+
+    /*
+    Forma Rodríguica de fazer o método acima
+    @Override
+    public Resultado validar(String valor) {
+        Resultado resultadoBase = super.validar(valor);
+        if (!resultadoBase.ok()) {
+            return resultadoBase;
+        }
+
+        if (!valor.matches(".*[a-z].*")) {
+            return new Resultado("A senha deve conter pelo menos uma letra minúscula.");
+        }
+        if (!valor.matches(".*[A-Z].*")) {
+            return new Resultado("A senha deve conter pelo menos uma letra maiúscula.");
+        }
+        if (!valor.matches(".*\\d.*")) {
+            return new Resultado("A senha deve conter pelo menos um número.");
+        }
+        return new Resultado();
+    }
+    */
 }
