@@ -9,7 +9,7 @@ public static boolean isMatriculaValida(String matricula) {
 }
 
 public static boolean isMatriculaValida(String matricula) {
-    return matricula.isBlank(); // Verifica se a matrícula contém APENAS números
+    return matricula.isBlank(); // Verifica se a matrícula contém APENAS espaços em branco
 }
 
 //no caso, esses métodos serão o seguinte:
