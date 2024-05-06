@@ -14,7 +14,7 @@ public class ValidadorData implements ValidadorCampo {
     @Override
     public Resultado validar(String valor) {
         SimpleDateFormat formatter = new SimpleDateFormat(padraoData);
-        formatter.setLenient(false);
+        formatter.setLenient(false); //essa belezura aqui me garante que coisas do tipo "30/02" aconteçam
         try {
             formatter.parse(valor);
             return new Resultado();
