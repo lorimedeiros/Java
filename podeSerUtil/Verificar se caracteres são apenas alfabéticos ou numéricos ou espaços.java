@@ -9,10 +9,10 @@ public static boolean isMatriculaValida(String matricula) {
 }
 
 public static boolean isMatriculaValida(String matricula) {
-    return matricula.matches("\\d+"); // Verifica se a matrícula contém APENAS números
+    return matricula.isBlank(); // Verifica se a matrícula contém APENAS números
 }
 
 //no caso, esses métodos serão o seguinte:
-//se só espaço em branco então retorna true
-//se só números então retorna true
 //se só alfabetico true
+//se só números então retorna true
+//se só espaços em branco true
