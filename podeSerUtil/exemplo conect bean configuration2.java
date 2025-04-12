@@ -1,5 +1,5 @@
 /*
-definindo valores na mão
+definindo valores na mão (alternativa menos recomendada possível)
 */
 
 package io.github.lorimedeiros.livraria_api.config;
